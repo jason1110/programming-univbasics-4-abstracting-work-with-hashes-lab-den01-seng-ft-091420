@@ -14,7 +14,6 @@ def update_counting_hash(hash, key)
   else  
     hash[key]=1
   end  
-puts update_counting_hash(count, "apple")
 end
 
-#p update_counting_hash(:boots, 1)
+p update_counting_hash(count, "apple")
