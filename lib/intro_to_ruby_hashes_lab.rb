@@ -1,3 +1,5 @@
+count = {:apple => 1, :orange => 2}
+
 def my_hash_creator(key, value)
  {key => value}
 end
@@ -12,7 +14,7 @@ def update_counting_hash(hash, key)
   else  
     hash[key]=1
   end  
-puts update_counting_hash(:boots, 1)
+puts update_counting_hash(count, "apple")
 end
 
 #p update_counting_hash(:boots, 1)
