@@ -16,4 +16,4 @@ def update_counting_hash(hash, key)
   end  
 end
 
-p update_counting_hash(count, "apple")
+p update_counting_hash(count, "bananna")
