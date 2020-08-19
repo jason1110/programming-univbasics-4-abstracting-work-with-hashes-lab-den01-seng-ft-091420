@@ -8,7 +8,7 @@ end
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
-  if hash[key] {
+  if hash[key]==nil {
     hash[key] = 1
   }
     hash[key]+=1
