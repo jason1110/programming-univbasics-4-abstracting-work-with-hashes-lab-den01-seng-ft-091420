@@ -17,4 +17,3 @@ def update_counting_hash(hash, key)
   hash
 end
 
-p update_counting_hash(count, :bananaa)
